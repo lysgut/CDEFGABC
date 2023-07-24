@@ -1,23 +1,23 @@
 body {
   display: flex;
-  justify-content: flex-start; /* Alinear los elementos al inicio del contenedor */
 }
 
 .containerN {
   display: flex;
-  flex-wrap: wrap; /* Esto permitirá que los rectángulos se coloquen en varias filas */
+  flex-wrap: wrap; /* Permitir que los elementos se coloquen en varias filas */
 }
 
-.rectangulo {
-  width: 100px;
+.blancas {
   height: 200px;
-  background: red;
-
+  width: 50px;
+  background: rgb(225, 3, 3);
 }
 
-.rectangulol {
-    width: 100px;
-    height: 100px;
-    background: black;
-   color: wheat;
-  }
+.negras {
+  z-index: 1;
+  height: 100px;
+  background: black;
+  color: wheat;
+  margin-right: 10px; /* Ajustar el margen derecho para separar las cajas negras */
+  margin-bottom: 10px; /* Ajustar el margen inferior para separar las cajas negras */
+}
