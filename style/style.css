@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: flex-start; /* Alinear los elementos al inicio del contenedor */
+}
+
+.containerN {
+  display: flex;
+  flex-wrap: wrap; /* Esto permitirá que los rectángulos se coloquen en varias filas */
+}
+
+.rectangulo {
+  width: 100px;
+  height: 200px;
+  background: red;
+
+}
+
+.rectangulol {
+    width: 100px;
+    height: 100px;
+    background: black;
+   color: wheat;
+  }
