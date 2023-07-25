@@ -16,16 +16,17 @@ background-size: cover;  display: flex;
 }
 
 .blancas {
-  display: flex;
   height: 200px;
   width: 50px;
   background: rgb(169, 169, 169);
   position: relative;
+  display: flex; /* Agregar flexbox */
   align-items: center;
   flex-direction: column-reverse; /* Alinear el contenido al final del botón */
   justify-content: end; /* Alinear el contenido verticalmente en el extremo inferior */
   padding-bottom: 15px;
 }
+
 
 
 .negras {

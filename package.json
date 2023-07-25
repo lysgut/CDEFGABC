@@ -1,0 +1,14 @@
+{
+  "name": "cdefgabc",
+  "version": "1.0.0",
+  "description": "Que ridículo es que pienses\r Que todo es tuyo, inclusive yo\r Todo eso, tuyo puede ser\r Pero esta noche es para los dos\r Quizá fue la mañana en que vendados los dos\r Descubrimos como eran las cosas\r Y sin abrir los ojos nos teletransportamos\r Adonde desearíamos estar\r Entonces besas el hechizo\r Que me obliga a arrastrar\r Entre Guínea y tus sabanas\r Nuestra sociedad no ayuda mucho\r Mientras la pasas bien yo lucho\r Quizá fue la mañana en que vendados los dos\r Descubrimos como eran las cosas\r Y sin abrir los ojos nos teletransportamos\r Adonde desearíamos estar\r Pero también lo siento\r Que sólo es un momento\r Que todos deberíamos pasar\r Quizá fue la mañana en que vendados los dos\r Descubrimos cómo eran las cosas\r Y sin abrir los ojos nos teletransportamos\r Adonde desearíamos estar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tone": "^14.7.77"
+  }
+}
