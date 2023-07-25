@@ -1,5 +1,8 @@
 body {
-  display: flex;
+background-color: #FFADCE;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23d693ff'/%3E%3Cstop offset='1' stop-color='%23d693ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23d495ff'/%3E%3Cstop offset='1' stop-color='%23d495ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237baeff'/%3E%3Cstop offset='1' stop-color='%237baeff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FFADCE'/%3E%3Cstop offset='1' stop-color='%23FFADCE' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2378A8FF'/%3E%3Cstop offset='1' stop-color='%2378A8FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237DB3FF'/%3E%3Cstop offset='1' stop-color='%237DB3FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -9,15 +12,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
-  position: relative; /* Agregar posición relativa para que las teclas negras se posicionen respecto a este contenedor */
+  position: relative;   
 }
 
 .blancas {
+  display: flex;
   height: 200px;
   width: 50px;
   background: rgb(169, 169, 169);
   position: relative;
-  vertical-align: 500px;
+  align-items: center;
+  flex-direction: column-reverse; /* Alinear el contenido al final del botón */
+  justify-content: end; /* Alinear el contenido verticalmente en el extremo inferior */
+  padding-bottom: 15px;
 }
 
 
@@ -26,12 +33,11 @@ body {
   height: 140px;
   background: black;
   color: wheat;
-  position: absolute; /* Cambiar a posición absoluta para superponer las teclas negras sobre las blancas */
-  width: 30px; /* Ajustar el ancho para que las teclas negras sean más estrechas que las blancas */
-  top: 0; /* Ajustar la posición vertical de las teclas negras para que se superpongan a las blancas */
+  position: absolute; 
+  width: 30px; 
+  top: 0; 
 }
 
-/* Ajustar la posición de las teclas negras para que estén donde desees */
 .negras:nth-child(2) {
   left: 35px;
 }
@@ -51,6 +57,7 @@ body {
 .negras:nth-child(11) {
   left: 285px;
 }
+
 
 .negras:nth-child(14) {
   left: 385px;
@@ -72,4 +79,22 @@ body {
   left: 635px;
 }
 
+.negras:nth-child(26) {
+  left: 735px;
+}
 
+.negras:nth-child(28) {
+  left: 785px;
+}
+
+.negras:nth-child(31) {
+  left: 885px;
+}
+
+.negras:nth-child(33) {
+  left: 935px;
+}
+
+.negras:nth-child(35) {
+  left: 985px;
+}
