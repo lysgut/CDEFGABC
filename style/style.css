@@ -6,6 +6,14 @@ background-size: cover;  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  
+}
+
+
+.select-container {
+  align-items: end  !important;
+  background-color: aqua;
+
 }
 
 .containerN {
@@ -20,10 +28,10 @@ background-size: cover;  display: flex;
   width: 50px;
   background: rgb(169, 169, 169);
   position: relative;
-  display: flex; /* Agregar flexbox */
+  display: flex; 
   align-items: center;
-  flex-direction: column-reverse; /* Alinear el contenido al final del botón */
-  justify-content: end; /* Alinear el contenido verticalmente en el extremo inferior */
+  flex-direction: column-reverse; 
+  justify-content: end; 
   padding-bottom: 15px;
 }
 
